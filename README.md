@@ -1,4 +1,4 @@
-## Описание playbook для настройки виртуальных машин Yandex Cloud"
+## Описание playbook для настройки виртуальных машин Yandex Cloud
 В каталоге playbook/inventory расположены каталоги, имена которых соответствуют средам и указываются в качестве параметра -i при запуске playbook
 
 Каталог playbook/inventory/prod содержит описание среды prod.
@@ -38,5 +38,5 @@ Playbook состоит из 3 play:
       4. подключение модуля system для работы filebeat
       5. запуск процесса инициализации dashbord в kibana послу установки filebeat
 
-##вывод ansible-lint site.yml
+## вывод ansible-lint site.yml
 ![](img/ans-lint.png)
